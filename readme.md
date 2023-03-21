@@ -1,10 +1,14 @@
-# Goalsetter MERN app
+# Blog Junction
 
-This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
+This is a basic blog app made with Redux Toolkit
 
 ## Usage
 
-Rename the .envexample to .env and add your MONGO_URI
+Make a .env file in the backend folder with the following requriements
+PORT = 8000
+NODE_ENV = development
+MONGO_URI = "Insert your MongoDB Atlas Connection String Here"
+JWT_SECRET = abc1234
 
 ### Install dependencies
 
@@ -17,14 +21,3 @@ cd frontend
 npm install
 ```
 
-### Run Server
-
-```
-npm run server
-```
-
-## Demo
-
-I am not sure how long this will be up
-
-https://mernappbrad.herokuapp.com/
